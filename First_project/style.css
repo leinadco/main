@@ -1,0 +1,43 @@
+html, body {
+    background-color: rgb(43, 43, 47);
+    height: 96.5vh;
+}
+
+div {
+    border: solid 5px white;
+    color: white;
+}
+.principal {
+    display: grid;
+    grid-template-areas: 
+        "firstSX firstSX firstTop firstTop firstTop firstTop firstTop"
+        "firstSX firstSX secondTop secondTop secondTop secondTop secondTop"
+        "firstSX firstSX center1 center1 center1 left1 left1"
+        "secondSX secondSX center1 center1 center1 left1 left1"
+        "secondSX secondSX center1 center1 center1 left1 left1"
+        "secondSX secondSX bottom1 bottom1 bottom1 bottom1 bottom1";
+    height: inherit;
+    border: none;
+}
+
+.firstSX {
+    grid-area: firstSX;
+}
+.secondSX {
+    grid-area: secondSX;
+}
+.firstTop {
+    grid-area: firstTop;
+}
+.secondTop {
+    grid-area: secondTop;
+}
+.center1 {
+    grid-area: center1;
+}
+.left1 {
+    grid-area: left1;
+}
+.bottom1 {
+    grid-area: bottom1;
+}
