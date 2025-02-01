@@ -1,1 +1,1 @@
-document.getElementsByTagName(h1).innerHTML = "Text changed";
+document.getElementsByTagName("h1").innerHTML = "Text changed";
